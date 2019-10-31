@@ -131,7 +131,7 @@ li.li-nav a:hover {
   position: absolute;
   top: 50%;
   width: 100%;
-  height: 900px;
+  height: 550px;
   background-color: white;
 }
 .about-line {
@@ -144,79 +144,15 @@ li.li-nav a:hover {
   top: 0;
   z-index: 0;
 }
-.about-text {
+.form-block {
   display: block;
   position: absolute;
-  width: 500px;
-  height: 220px;
-  top: 13%;
-  left: 10%;
+  width: 40%;
+  top: 10%;
+  left: 30%;
   background: rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0px 8px 2px black;
-}
-.about-text article {
-  text-align: center;
-  font-family: "Play-Regular";
-  font-size: 25px;
-  margin: 20px;
-  margin-top: 33px;
-}
-#header-text-info {
-  display: block;
-  position: absolute;
-  font-family: "Play-Regular";
-  font-size: 35px;
-  color: black;
-  top: 7%;
-  left: 15%;
-}
-.about-features {
-  display: block;
-  position: absolute;
-  width: 500px;
-  height: 220px;
-  top: 13%;
-  right: 10%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
-}
-.about-features article {
-  text-align: center;
-  font-family: "Play-Regular";
-  font-size: 25px;
-  margin: 20px;
-}
-.about-features-ul {
-  list-style: none;
-}
-#header-text-features {
-  display: block;
-  position: absolute;
-  font-family: "Play-Regular";
-  font-size: 35px;
-  color: black;
-  top: 7%;
-  right: 10.8%;
-}
-#header-map-location {
-  display: block;
-  position: absolute;
-  top: 46.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Play-Regular";
-  font-size: 35px;
-  color: black;
-}
-.map-location {
-  display: block;
-  position: absolute;
-  top: 72%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
-  padding: 20px;
+  height: 440px;
 }
 @font-face {
   font-family: "Play-Regular";

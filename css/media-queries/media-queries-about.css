@@ -14,45 +14,30 @@
       height: 70px;
       width: 20%;
     }
-    .about-block {
-      height: 500px;
-    }
     .header-text-about span {
       font-size: 30px;
     }
     .about-text {
-      width: 330px;
-      top: 28%;
-      left: 5%;
+      width: 450px;
     }
     .about-text article {
       font-size: 23px;
     }
     #header-text-info {
       font-size: 32px;
-      left: 10.5%;
-      top: 19%;
+      left: 16%;
     }
     .about-features {
-      width: 330px;
-      top: 28%;
-      right: 5%;
+      width: 450px;
     }
     .about-features article {
       font-size: 23px;
     }
     #header-text-features {
       font-size: 32px;
-      right: 6.5%;
-      top: 19%;
     }
     #header-map-location {
       font-size: 32px;
       left: 51%;
-      top: 22.8%;
-    }
-    .map-location {
-      width: 330px;
-      top: 28%;
     }
 }

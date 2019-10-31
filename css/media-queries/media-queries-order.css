@@ -1,0 +1,20 @@
+@media screen and (min-width: 1300px) {
+    .menu {
+      left: 55%;
+      top: 17%;
+    }
+    li.li-nav a {
+      font-size: 24px;
+    }
+    .back-image-block {
+      height: 400px;
+      top: 2%;
+    }
+    .header-text-about {
+      height: 70px;
+      width: 20%;
+    }
+    .header-text-about span {
+      font-size: 30px;
+    }
+}

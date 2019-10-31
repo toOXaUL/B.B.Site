@@ -1,0 +1,9 @@
+@media screen and (min-width: 1300px) {
+    .menu {
+      left: 55%;
+      top: 17%;
+    }
+    li.li-nav a {
+      font-size: 24px;
+    }
+}

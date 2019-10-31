@@ -13,10 +13,10 @@
     <div class = "header-block">
       <nav class = "menu">
         <ul class = "ul-nav">
-          <li class = "li-nav"><a href="index.html">Головна</a></li>
-          <li class = "li-nav"><a href = "service.html">Послуги</a></li>
-          <li class = "li-nav"><a href = "order.html">Замовити</a></li>
-          <li class = "li-nav"><a href = "about.html">Про нас</a></li>
+          <li class = "li-nav"><a href="index.php">Головна</a></li>
+          <li class = "li-nav"><a href = "service.php">Послуги</a></li>
+          <li class = "li-nav"><a href = "order.php">Замовити</a></li>
+          <li class = "li-nav"><a href = "about.php">Про нас</a></li>
         </ul>
       </nav>
       <div class = "logo">
