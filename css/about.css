@@ -11,7 +11,7 @@ body {
 }
 .header-block {
   display: block;
-  position: absolute;
+  position: sticky;
   background-color: #8C4D4E;
   width: 100%;
   height: 75px;
@@ -95,33 +95,46 @@ li.li-nav a:hover {
   background-color: #F44AF4;
   box-shadow: 0px 0px 10px 1px #F44AF4;
   top: 100%;
+  z-index: 1;
 }
-.main-text {
+.back-image-block {
   display: block;
   position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
+  width: 100%;
+  top: 8%;
+  height: 411px;
+  background: url(../assets/images/about-back-image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header-text-about {
+  display: block;
+  position: absolute;
+  width: 50%;
+  background-color: white;
+  height: 150px;
   top: 50%;
+  left: 50%;
+  box-shadow: 0px 0px 15px 2px black;
+  transform: translate(-50%, -50%);
 }
-#upper-main-text {
+.header-text-about span {
   display: block;
-  position: relative;
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
   font-family: "Play-Bold";
-  text-shadow: 0px 0px 10px black;
-  font-size: 50px;
-  text-decoration: underline;
+  font-size: 40px;
 }
-#bottom-main-text {
+.about-block {
   display: block;
-  position: relative;
-  text-align: center;
-  font-family: "Play-Regular";
-  font-size: 26px;
-}
-.colored-text {
-  color: #FFAA00;
-  text-shadow: 0px 0px 5px #FFAA00;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 500px;
+  background-color: silver;
 }
 @font-face {
   font-family: "Play-Regular";
