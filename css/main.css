@@ -20,7 +20,7 @@ body {
 .menu {
   display: block;
   position: absolute;
-  left: 65%;
+  left: 60%;
   top: 12%;
   height: 75px;
   z-index: 1;
@@ -39,6 +39,8 @@ li.li-nav a {
   position: relative;
   font-family: "Play-Regular";
   font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: white;
   text-shadow: 0px 0px 1px white;
   transition: .2s;
@@ -46,43 +48,25 @@ li.li-nav a {
 li.li-nav a::before {
 	content: "";
 	width: 0;
-	height: 4px;
+	height: 3px;
 	background-color: #FFAA00;
+  box-shadow: 0px 0px 10px 1px #FFAA00;
 	position: absolute;
 	top: 99.9%;
 	left: 0;
 	transition: .5s;
 	mix-blend-mode: multiply;
 }
-li.li-nav a::after {
-	content: "";
-	width: 0;
-	height: 4px;
-	background-color: #FFAA00;
-	position: absolute;
-	top: 0.1%;
-	right: 0;
-	transition: .5s;
-	mix-blend-mode: multiply;
-}
 li.li-nav:hover a::before {
-	width: 100%;
-}
-li.li-nav:hover a::after {
 	width: 100%;
 }
 li.li-nav a::before {
 	transition: .5s;
 	mix-blend-mode: multiply;
 }
-li.li-nav a::after {
-	transition: .5s;
-	mix-blend-mode: multiply;
-}
 li.li-nav a:hover {
-  color: #D5D5D5;
-  text-shadow: 0px 0px 1px #D5D5D5;
-  transition: .2s;
+  text-shadow: 0px 0px 5px white;
+  transition: .5s;
 }
 #header-text {
   display: block;
@@ -93,6 +77,58 @@ li.li-nav a:hover {
 #header-text span {
   font-family: "Play-Bold";
   font-size: 30px;
+}
+.logo {
+  display: block;
+  position: absolute;
+  top: 16.5%;
+  left: 6%;
+}
+.logo img {
+  width: 55%;
+}
+.topline {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #F44AF4;
+  box-shadow: 0px 0px 10px 1px #F44AF4;
+  top: 100%;
+}
+.main-text {
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+#upper-main-text {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: "Play-Bold";
+  text-shadow: 0px 0px 10px black;
+  font-size: 50px;
+}
+#bottom-main-text {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: "Play-Regular";
+  font-size: 26px;
+}
+.colored-text {
+  color: #FFAA00;
+  text-shadow: 0px 0px 5px #FFAA00;
+}
+.footer-block {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: #8C4D4E;
+  height: 3%;
+  top: 97%;
 }
 .container {
   display: block;
