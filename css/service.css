@@ -148,7 +148,7 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   width: 400px;
-  height: 250px;
+  height: 280px;
   top: 13%;
   left: 10%;
   background: rgba(0, 0, 0, 0.8);
@@ -174,7 +174,7 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   width: 400px;
-  height: 250px;
+  height: 280px;
   top: 13%;
   right: 10%;
   background: rgba(0, 0, 0, 0.8);
@@ -185,6 +185,7 @@ li.li-nav a:hover {
   font-family: "Play-Regular";
   font-size: 25px;
   margin: 20px;
+  margin-top: 85px;
 }
 .about-features-ul {
   list-style: none;
@@ -196,7 +197,7 @@ li.li-nav a:hover {
   font-size: 35px;
   color: black;
   top: 7%;
-  right: 10.8%;
+  right: 13%;
 }
 #header-map-location {
   display: block;
@@ -216,13 +217,14 @@ li.li-nav a:hover {
   background: rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0px 8px 2px black;
   width: 400px;
-  height: 250px;
+  height: 280px;
 }
 .map-location article {
   text-align: center;
   font-family: "Play-Regular";
   font-size: 25px;
   margin: 20px;
+  margin-top: 90px;
 }
 @font-face {
   font-family: "Play-Regular";
