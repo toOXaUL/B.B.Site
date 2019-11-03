@@ -37,8 +37,14 @@
           <div class = "web-portfolio">
             <div id = "web-topline">
             </div>
+            <div class = "item-1-out">
+              <span>YouTube - онлайн відео-хостинг</span>
+            </div>
             <div class = "item-1">
               <a href = "https://youtube.com" target = "_blank"><img src = "assets/images/youtube-logo.jpg" alt = "Логотип 'YouTube'"></a>
+            </div>
+            <div class = "item-2-out">
+              <span>Telegram - месенджер майбутнього</span>
             </div>
             <div class = "item-2">
               <a href = "https://telegram.com" target = "_blank"><img src = "assets/images/telegram-logo.jpg" alt = "Логотип 'Telegram'"></a>
@@ -54,8 +60,14 @@
           <div class = "mobile-portfolio">
             <div id = "mobile-topline">
             </div>
+            <div class = "item-1-out">
+              <span>Instagram - соціальна мережа</span>
+            </div>
             <div class = "item-1">
               <a href = "https://instagram.com" target = "_blank"><img src = "assets/images/instagram-logo.jpg" alt = "Логотип 'Інстаграм'"></a>
+            </div>
+            <div class = "item-2-out">
+              <span>PhotoMath - розумний калькулятор</span>
             </div>
             <div class = "item-2">
               <a href = "https://photomath.com/" target = "_blank"><img src = "assets/images/photomath-logo.jpg" alt = "Логотип 'PhotoMath'"></a>
@@ -71,8 +83,14 @@
           <div class = "desktop-portfolio">
             <div id = "desktop-topline">
             </div>
+            <div class = "item-1-out">
+              <span>Steam - ігрова платформа</span>
+            </div>
             <div class = "item-1">
               <a href = "https://steamcommunity.com" target = "_blank"><img src = "assets/images/steam-logo.jpg" alt = "Логотип 'Steam'"></a>
+            </div>
+            <div class = "item-2-out">
+              <span>Photoshop - сучасний фоторедактор</span>
             </div>
             <div class = "item-2">
               <a href = "https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other" target = "_blank"><img src = "assets/images/photoshop-logo.jpg" alt = "Логотип 'Photoshop'"></a>
