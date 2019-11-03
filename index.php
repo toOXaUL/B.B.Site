@@ -29,13 +29,43 @@
     </header>
   <main>
     <section>
-      <div class = "left-block">
-        <div id = "left-block-header-text">
-          <span>Портфоліо:</span>
-        </div>
-        <div id = "mid-line">
-          <hr>
-        </div>
+      <div class = "left-block-1">
+        <section>
+          <div id = "web-header-text">
+            <span>Портфоліо веб-розробки:</span>
+          </div>
+          <div class = "web-portfolio">
+            <div id = "web-topline">
+            </div>
+            <span>Веб-розробки:</span>
+            <div id = "web-bottomline">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id = "mobile-header-text">
+            <span>Портфоліо мобільних розробки:</span>
+          </div>
+          <div class = "mobile-portfolio">
+            <div id = "mobile-topline">
+            </div>
+            <span>Мобільні розробки:</span>
+            <div id = "mobile-bottomline">
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id = "desktop-header-text">
+            <span>Портфоліо десктоп-розробки:</span>
+          </div>
+          <div class = "desktop-portfolio">
+            <div id = "desktop-topline">
+            </div>
+            <span>Десктоп-розробки:</span>
+            <div id = "desktop-bottomline">
+            </div>
+          </div>
+        </section>
       </div>
     </section>
     <section>

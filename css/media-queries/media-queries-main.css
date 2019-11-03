@@ -87,7 +87,7 @@
   .logo img {
     width: 55%;
   }
-  .left-block {
+  .left-block-1 {
     display: block;
     position: absolute;
     background-color: white;
@@ -96,54 +96,6 @@
     height: 900px;
     z-index: -1;
     box-shadow: 1px 0px 5px 1px black;
-  }
-  #left-block-header-text {
-    display: block;
-    position: absolute;
-    color: black;
-    top: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #left-block-header-text span {
-    font-family: "Play-Regular";
-    font-size: 25px;
-  }
-  #mid-line hr{
-    display: block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 55%;
-    left: 4%;
-    width: 460px;
-    height: 2px;
-    border: 0;
-    background: #000;
-    transform: rotate(90deg);
-  	background-image: -webkit-linear-gradient(left, #FF55FF, #AA00AA, #FF55FF);
-  }
-  .main-text {
-    display: block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 70%;
-    top: 50%;
-  }
-  #upper-main-text {
-    display: block;
-    position: relative;
-    text-align: center;
-    font-family: "Play-Bold";
-    text-shadow: 0px 0px 10px black;
-    font-size: 50px;
-    text-decoration: underline;
-  }
-  #bottom-main-text {
-    display: block;
-    position: relative;
-    text-align: center;
-    font-family: "Play-Regular";
-    font-size: 26px;
   }
   .colored-text {
     color: #FFAA00;
