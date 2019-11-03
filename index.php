@@ -37,31 +37,44 @@
           <div class = "web-portfolio">
             <div id = "web-topline">
             </div>
-            <span></span>
+            <div class = "item-1">
+              <img src = "assets/images/youtube-logo.jpg" alt = "Логотип 'YouTube'">
+            </div>
+            <div class = "item-2">
+              <img src = "assets/images/telegram-logo.jpg" alt = "Логотип 'Telegram'">
+            </div>
             <div id = "web-bottomline">
             </div>
           </div>
         </section>
         <section>
           <div id = "mobile-header-text">
-            <span>Портфоліо мобільних розробки:</span>
+            <span>Портфоліо мобільні розробки:</span>
           </div>
           <div class = "mobile-portfolio">
             <div id = "mobile-topline">
             </div>
-            <span></span>
+            <div class = "item-1">
+              <img src = "assets/images/instagram-logo.jpg" alt = "Логотип 'Інстаграм'">
+            </div>
+            <div class = "item-2">
+              <img src = "assets/images/photomath-logo.jpg" alt = "Логотип 'PhotoMath'">
+            </div>
             <div id = "mobile-bottomline">
             </div>
           </div>
         </section>
         <section>
           <div id = "desktop-header-text">
-            <span>Портфоліо десктоп-розробки:</span>
+            <span>Портфоліо десктоп-розробоки:</span>
           </div>
           <div class = "desktop-portfolio">
             <div id = "desktop-topline">
             </div>
-            <span></span>
+            <div class = "item-1">
+            </div>
+            <div class = "item-2">
+            </div>
             <div id = "desktop-bottomline">
             </div>
           </div>
