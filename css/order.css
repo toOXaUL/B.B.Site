@@ -11,11 +11,12 @@ body {
 }
 .header-block {
   display: block;
-  position: fixed;
+  position: absolute;
   background-color: #8C4D4E;
+  box-shadow: 0px 1px 5px 1px black;
   width: 100%;
   height: 75px;
-  top: 0;
+  top: 0%;
   z-index: 1;
 }
 .menu {
@@ -72,7 +73,7 @@ li.li-nav a:hover {
 #header-text {
   display: block;
   position: absolute;
-  left: 10%;
+  left: 7%;
   top: 25%;
 }
 #header-text span {
@@ -83,20 +84,10 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   top: 16.5%;
-  left: 6%;
+  left: 2%;
 }
 .logo img {
   width: 55%;
-}
-.topline {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #F44AF4;
-  box-shadow: 0px 0px 10px 1px #F44AF4;
-  top: 100%;
-  z-index: 2;
 }
 .back-image-block {
   display: block;
@@ -133,16 +124,7 @@ li.li-nav a:hover {
   width: 100%;
   height: 550px;
   background-color: white;
-}
-.about-line {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 10px 1px #FFAA00;
-  top: 0;
-  z-index: 0;
+  box-shadow: 0px -1px 5px 1px black;
 }
 .form-block {
   display: block;

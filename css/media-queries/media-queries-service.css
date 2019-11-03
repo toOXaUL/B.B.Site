@@ -119,18 +119,13 @@
     transition: .5s;
   }
   #header-text {
-    display: block;
-    position: absolute;
     left: 7%;
     top: 25%;
   }
   #header-text span {
-    font-family: "Play-Bold";
     font-size: 30px;
   }
   .logo {
-    display: block;
-    position: absolute;
     top: 16.5%;
     left: 2%;
   }
@@ -138,128 +133,77 @@
     width: 55%;
   }
   .back-image-block {
-    display: block;
-    position: absolute;
     width: 100%;
     top: 8%;
     height: 411px;
   }
   .header-text-about {
-    display: block;
-    position: absolute;
     width: 25%;
-    background-color: white;
     height: 85px;
     top: 50%;
     left: 50%;
-    box-shadow: 0px 0px 15px 2px black;
-    transform: translate(-50%, -50%);
   }
   .header-text-about span {
-    display: block;
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-family: "Play-Bold";
     font-size: 40px;
   }
   .about-block {
-    display: block;
-    position: absolute;
     top: 50%;
     width: 100%;
     height: 50%;
-    background-color: white;
   }
   .about-line {
-    display: block;
-    position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #FFAA00;
-    box-shadow: 0px 0px 10px 1px #FFAA00;
     top: 0;
-    z-index: 1;
   }
   .about-text {
-    display: block;
-    position: absolute;
     width: 400px;
     height: 280px;
-    top: 17%;
+    top: 18%;
     left: 10%;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 8px 2px black;
   }
   .about-text article {
-    text-align: center;
-    font-family: "Play-Regular";
     font-size: 25px;
     margin: 20px;
     margin-top: 33px;
   }
   #header-text-info {
-    display: block;
-    position: absolute;
-    font-family: "Play-Regular";
     font-size: 35px;
     color: black;
     top: 8%;
     left: 15%;
   }
   .about-features {
-    display: block;
-    position: absolute;
     width: 400px;
     height: 280px;
-    top: 17%;
+    top: 18%;
     right: 10%;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 8px 2px black;
   }
   .about-features article {
-    text-align: center;
-    font-family: "Play-Regular";
     font-size: 25px;
     margin: 20px;
     margin-top: 85px;
   }
-  .about-features-ul {
-    list-style: none;
-  }
   #header-text-features {
-    display: block;
-    position: absolute;
-    font-family: "Play-Regular";
     font-size: 35px;
     color: black;
     top: 8%;
     right: 13%;
   }
   #header-map-location {
-    display: block;
-    position: absolute;
     top: 12%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Play-Regular";
     font-size: 35px;
-    color: black;
   }
   .map-location {
-    display: block;
-    position: absolute;
-    top: 17%;
+    top: 18%;
     left: 37.5%;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 8px 2px black;
     width: 400px;
     height: 280px;
   }
   .map-location article {
-    text-align: center;
     font-family: "Play-Regular";
     font-size: 25px;
     margin: 20px;

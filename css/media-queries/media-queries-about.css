@@ -41,3 +41,159 @@
       left: 51%;
     }
 }
+@media screen and (min-width: 1600px) {
+  .header-block {
+    display: block;
+    position: fixed;
+    background-color: #8C4D4E;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    z-index: 1;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    left: 61%;
+    top: 12%;
+    height: 75px;
+    z-index: 1;
+  }
+  ul.ul-nav {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+  li.li-nav {
+    padding: 10px;
+    list-style: none;
+  }
+  li.li-nav a {
+    text-decoration: none;
+    position: relative;
+    font-family: "Play-Regular";
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    transition: .2s;
+  }
+  li.li-nav a::before {
+  	content: "";
+  	width: 0;
+  	height: 3px;
+  	background-color: #FFAA00;
+    box-shadow: 0px 0px 10px 1px #FFAA00;
+  	position: absolute;
+  	top: 99.9%;
+  	left: 0;
+  	transition: .5s;
+  	mix-blend-mode: multiply;
+  }
+  li.li-nav:hover a::before {
+  	width: 100%;
+  }
+  li.li-nav a::before {
+  	transition: .5s;
+  	mix-blend-mode: multiply;
+  }
+  li.li-nav a:hover {
+    text-shadow: 0px 0px 5px white;
+    transition: .5s;
+  }
+  #header-text {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+  }
+  #header-text span {
+    font-family: "Play-Bold";
+    font-size: 30px;
+  }
+  .logo {
+    display: block;
+    position: absolute;
+    top: 16.5%;
+    left: 6%;
+  }
+  .logo img {
+    width: 55%;
+  }
+  .back-image-block {
+    width: 100%;
+    top: 8%;
+    height: 411px;
+  }
+  .header-text-about {
+    display: block;
+    position: absolute;
+    width: 25%;
+    background-color: white;
+    height: 85px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 0px 15px 2px black;
+    transform: translate(-50%, -50%);
+  }
+  .header-text-about span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: "Play-Bold";
+    font-size: 40px;
+  }
+  .about-block {
+    top: 50%;
+    width: 100%;
+    height: 900px;
+    background-color: white;
+  }
+  .about-text {
+    width: 500px;
+    height: 220px;
+    top: 13%;
+    left: 10%;
+  }
+  .about-text article {
+    font-size: 25px;
+    margin: 20px;
+    margin-top: 33px;
+  }
+  #header-text-info {
+    font-size: 35px;
+    color: black;
+    top: 7%;
+    left: 15%;
+  }
+  .about-features {
+    width: 500px;
+    height: 220px;
+    top: 13%;
+    right: 10%;
+  }
+  .about-features article {
+    font-size: 25px;
+    margin: 20px;
+  }
+  #header-text-features {
+    font-size: 35px;
+    color: black;
+    top: 7%;
+    right: 10.8%;
+  }
+  #header-map-location {
+    top: 46.5%;
+    left: 50%;
+    font-size: 35px;
+  }
+  .map-location {
+    top: 72%;
+    left: 50%;
+    padding: 20px;
+  }
+}

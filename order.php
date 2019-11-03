@@ -20,12 +20,10 @@
         </ul>
       </nav>
       <div class = "logo">
-        <img src = "assets/images/logotype.png" alt = "Логотип студії">
+        <a href = "index.php"><img src = "assets/images/logotype.png" alt = "Логотип студії"></a>
       </div>
       <div id = "header-text">
         <span>keimtav studio</span>
-      </div>
-      <div class = "topline">
       </div>
     </div>
   </header>
@@ -37,8 +35,6 @@
         </div>
       </div>
       <div class = "about-block">
-        <div class = "about-line">
-        </div>
         <div class = "form-block">
           <form action = "" method = "post">
             <label>Ваше ім'я:</label>
@@ -56,7 +52,9 @@
               <option value = "Мобільні додатки">Мобільні додатки</option>
               <option value = "Десктоп-розробка">Десктоп-розробка</option>
             </select>
+            <br><br>
             <label>Побажання:</label>
+            <br>
             <textarea></textarea>
           </form>
         </div>

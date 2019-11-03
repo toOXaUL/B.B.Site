@@ -20,12 +20,10 @@
         </ul>
       </nav>
       <div class = "logo">
-        <img src = "assets/images/logotype.png" alt = "Логотип студії">
+        <a href = "index.php"><img src = "assets/images/logotype.png" alt = "Логотип студії"></a>
       </div>
       <div id = "header-text">
         <span>keimtav studio</span>
-      </div>
-      <div class = "topline">
       </div>
     </div>
   </header>
@@ -37,8 +35,6 @@
         </div>
       </div>
       <div class = "about-block">
-        <div class = "about-line">
-        </div>
         <span id = "header-text-info">Інформація про нас:</span>
         <div class = "about-text">
           <article>

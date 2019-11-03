@@ -17,6 +17,7 @@ body {
   height: 75px;
   top: 0;
   z-index: 1;
+  box-shadow: 0px 1px 5px 1px black;
 }
 .menu {
   display: block;
@@ -88,16 +89,6 @@ li.li-nav a:hover {
 .logo img {
   width: 55%;
 }
-.topline {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #F44AF4;
-  box-shadow: 0px 0px 10px 1px #F44AF4;
-  top: 100%;
-  z-index: 2;
-}
 .back-image-block {
   display: block;
   position: absolute;
@@ -133,16 +124,7 @@ li.li-nav a:hover {
   width: 100%;
   height: 900px;
   background-color: white;
-}
-.about-line {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 10px 1px #FFAA00;
-  top: 0;
-  z-index: 0;
+  box-shadow: 0px -1px 5px 1px black;
 }
 .about-text {
   display: block;
@@ -151,8 +133,8 @@ li.li-nav a:hover {
   height: 220px;
   top: 13%;
   left: 10%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
+  background-color: #E1E1E1;
+  box-shadow: 0px 0px 5px 1px black;
 }
 .about-text article {
   text-align: center;
@@ -160,6 +142,7 @@ li.li-nav a:hover {
   font-size: 25px;
   margin: 20px;
   margin-top: 33px;
+  color: black;
 }
 #header-text-info {
   display: block;
@@ -177,14 +160,15 @@ li.li-nav a:hover {
   height: 220px;
   top: 13%;
   right: 10%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
+  background-color: #E1E1E1;
+  box-shadow: 0px 0px 5px 1px black;
 }
 .about-features article {
   text-align: center;
   font-family: "Play-Regular";
   font-size: 25px;
   margin: 20px;
+  color: black;
 }
 .about-features-ul {
   list-style: none;
@@ -214,8 +198,8 @@ li.li-nav a:hover {
   top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
+  background-color: #E1E1E1;
+  box-shadow: 0px 0px 5px 1px black;
   padding: 20px;
 }
 @font-face {
