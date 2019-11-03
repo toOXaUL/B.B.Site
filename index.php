@@ -38,10 +38,10 @@
             <div id = "web-topline">
             </div>
             <div class = "item-1">
-              <img src = "assets/images/youtube-logo.jpg" alt = "Логотип 'YouTube'">
+              <a href = "https://youtube.com" target = "_blank"><img src = "assets/images/youtube-logo.jpg" alt = "Логотип 'YouTube'"></a>
             </div>
             <div class = "item-2">
-              <img src = "assets/images/telegram-logo.jpg" alt = "Логотип 'Telegram'">
+              <a href = "https://telegram.com" target = "_blank"><img src = "assets/images/telegram-logo.jpg" alt = "Логотип 'Telegram'"></a>
             </div>
             <div id = "web-bottomline">
             </div>
@@ -55,10 +55,10 @@
             <div id = "mobile-topline">
             </div>
             <div class = "item-1">
-              <img src = "assets/images/instagram-logo.jpg" alt = "Логотип 'Інстаграм'">
+              <a href = "https://instagram.com" target = "_blank"><img src = "assets/images/instagram-logo.jpg" alt = "Логотип 'Інстаграм'"></a>
             </div>
             <div class = "item-2">
-              <img src = "assets/images/photomath-logo.jpg" alt = "Логотип 'PhotoMath'">
+              <a href = "https://photomath.com/" target = "_blank"><img src = "assets/images/photomath-logo.jpg" alt = "Логотип 'PhotoMath'"></a>
             </div>
             <div id = "mobile-bottomline">
             </div>
@@ -72,10 +72,10 @@
             <div id = "desktop-topline">
             </div>
             <div class = "item-1">
-              <img src = "assets/images/steam-logo.jpg" alt = "Логотип 'Steam'">
+              <a href = "https://steamcommunity.com" target = "_blank"><img src = "assets/images/steam-logo.jpg" alt = "Логотип 'Steam'"></a>
             </div>
             <div class = "item-2">
-              <img src = "assets/images/photoshop-logo.jpg" alt = "Логотип 'Photoshop'">
+              <a href = "https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other" target = "_blank"><img src = "assets/images/photoshop-logo.jpg" alt = "Логотип 'Photoshop'"></a>
             </div>
             <div id = "desktop-bottomline">
             </div>
