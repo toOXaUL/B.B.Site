@@ -25,19 +25,31 @@
       <div id = "header-text">
         <span>keimtav studio</span>
       </div>
-      <div class = "topline">
-      </div>
     </div>
     </header>
   <main>
     <section>
+      <div class = "left-block">
+        <div id = "left-block-header-text">
+          <span>Портфоліо:</span>
+        </div>
+        <div id = "mid-line">
+          <hr>
+        </div>
+      </div>
+    </section>
+    <section>
       <div class = "main-text">
-        <span id = "upper-main-text">{Coding Your Life}</span><br>
+        <span id = "upper-main-text">Coding Your Life</span><br>
         <span id = "bottom-main-text">Я напишу для вас <span class = "colored-text">програмне забезпечення</span>, <span class = "colored-text">сайт</span> <br>або взагалі все, що можна написати...</span>
       </div>
     </section>
   </main>
   <footer>
+    <section>
+      <div class = "footer-block">
+      </div>
+    </section>
   </footer>
 </body>
 </html>
