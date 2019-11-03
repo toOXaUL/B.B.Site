@@ -72,8 +72,10 @@
             <div id = "desktop-topline">
             </div>
             <div class = "item-1">
+              <img src = "assets/images/steam-logo.jpg" alt = "Логотип 'Steam'">
             </div>
             <div class = "item-2">
+              <img src = "assets/images/photoshop-logo.jpg" alt = "Логотип 'Photoshop'">
             </div>
             <div id = "desktop-bottomline">
             </div>

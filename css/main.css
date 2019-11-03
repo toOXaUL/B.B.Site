@@ -170,13 +170,13 @@ li.li-nav a:hover {
 .item-1 {
   display: block;
   position: absolute;
-  background-color: black;
+  background: (0, 0, 0, 0);
   width: 255px;
   height: 140px;
   left: 5%;
   top: 15%;
   border-radius: 10px;
-  filter: drop-shadow(0px 0px 3px black);
+  filter: drop-shadow(0px 0px 4px black);
 }
 .item-1 img {
   border-radius: 10px;
@@ -184,13 +184,13 @@ li.li-nav a:hover {
 .item-2 {
   display: block;
   position: absolute;
-  background-color: black;
+  background: (0, 0, 0, 0);
   width: 255px;
   height: 140px;
   right: 5%;
   top: 15%;
   border-radius: 10px;
-  filter: drop-shadow(0px 0px 3px black);
+  filter: drop-shadow(0px 0px 4px black);
 }
 .item-2 img {
   border-radius: 10px;
