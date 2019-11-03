@@ -129,12 +129,75 @@ li.li-nav a:hover {
 .form-block {
   display: block;
   position: absolute;
-  width: 40%;
-  top: 10%;
-  left: 30%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 8px 2px black;
-  height: 440px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #E1E1E1;
+  box-shadow: 0px 0px 5px 1px black;
+  height: 300px;
+  color: black;
+  padding: 50px;
+}
+.group {
+  position: relative;
+  margin-bottom: 15px;
+}
+input {
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #E1E1E1;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-family: "Play-Regular";
+}
+.label-input {
+  color: #999;
+  font-size: 15px;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 15px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+input:focus ~ label, input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: #5264AE;
+}
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
 }
 @font-face {
   font-family: "Play-Regular";

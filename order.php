@@ -37,15 +37,24 @@
       <div class = "about-block">
         <div class = "form-block">
           <form action = "" method = "post">
-            <label>Ваше ім'я:</label>
-            <input type = "text" name = "input-name" placeholder = "Ім'я" required>
-            <br><br>
-            <label>Ваш E-mail:</label>
-            <input type = "text" name = "input-email" placeholder = "E-mail" required>
-            <br><br>
-            <label>Номер телефону:</label>
-            <input type = "text" name = "input-phone" placeholder = "Номер телефону" required maxlength = "13">
-            <br><br>
+            <div class = "group">
+              <input type = "text" name = "input-name" required>
+              <span class = "bar"></span>
+              <label class = "label-input">Ім'я</label>
+            </div>
+            <br>
+            <div class = "group">
+              <input type = "text" name = "input-email" required>
+              <span class = "bar"></span>
+              <label class = "label-input">Email</label>
+            </div>
+            <br>
+            <div class = "group">
+              <input type = "text" name = "input-phone" required maxlength = "13">
+              <span class = "bar"></span>
+              <label class = "label-input">Номер телефону</label>
+            </div>
+            <br>
             <label>Тип послуги:</label>
             <select name = "service-type">
               <option value = "Веб-розробка">Веб-розробка</option>
@@ -55,7 +64,7 @@
             <br><br>
             <label>Побажання:</label>
             <br>
-            <textarea></textarea>
+            <textarea cols = "45" rows = "8"></textarea>
           </form>
         </div>
       </div>
