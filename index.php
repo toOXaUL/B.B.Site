@@ -37,7 +37,7 @@
           <div class = "web-portfolio">
             <div id = "web-topline">
             </div>
-            <span>Веб-розробки:</span>
+            <span></span>
             <div id = "web-bottomline">
             </div>
           </div>
@@ -49,7 +49,7 @@
           <div class = "mobile-portfolio">
             <div id = "mobile-topline">
             </div>
-            <span>Мобільні розробки:</span>
+            <span></span>
             <div id = "mobile-bottomline">
             </div>
           </div>
@@ -61,7 +61,7 @@
           <div class = "desktop-portfolio">
             <div id = "desktop-topline">
             </div>
-            <span>Десктоп-розробки:</span>
+            <span></span>
             <div id = "desktop-bottomline">
             </div>
           </div>
@@ -78,6 +78,16 @@
   <footer>
     <section>
       <div class = "footer-block">
+        <div class = "footer-line">
+          <hr>
+        </div>
+        <span>© Всі права захищені 2018-2019</span>
+        <div class = "instagram-icon">
+          <a href = "https://insagram.com/"><img src = "assets/images/instagram-icon.png" alt = "Ікнонка 'Інстаграм'"></a>
+        </div>
+        <div class = "email-icon">
+          <a href = "https://google.com/"><img src = "assets/images/email-icon.png" alt = "Ікнонка 'Email'"></a>
+        </div>
       </div>
     </section>
   </footer>

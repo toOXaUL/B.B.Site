@@ -118,28 +118,11 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E4E4E4;
+  background-color: #E1E1E1;
   width: 100%;
   height: 200px;
   top: 10%;
 }
-/*#web-topline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-}
-#web-bottomline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-  margin-top: 180px;
-}*/
 #mobile-header-text {
   display: block;
   position: absolute;
@@ -157,28 +140,11 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E4E4E4;
+  background-color: #E1E1E1;
   width: 100%;
   height: 200px;
   top: 40%;
 }
-/*#mobile-topline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-}
-#mobile-bottomline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-  margin-top: 180px;
-}*/
 #desktop-header-text {
   display: block;
   position: absolute;
@@ -196,28 +162,11 @@ li.li-nav a:hover {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E4E4E4;
+  background-color: #E1E1E1;
   width: 100%;
   height: 200px;
   top: 70%;
 }
-/*#desktop-topline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-}
-#desktop-bottomline {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #FFAA00;
-  box-shadow: 0px 0px 8px 1px #FFAA00;
-  margin-top: 180px;
-}*/
 .main-text {
   display: block;
   position: absolute;
@@ -253,6 +202,58 @@ li.li-nav a:hover {
   bottom: 0;
   left: 0;
   box-shadow: 0px -1px 5px 1px black;
+}
+.footer-block span {
+  display: block;
+  position: absolute;
+  font-family: "Play-Regular";
+  font-size: 18px;
+  top: 20%;
+  left: 1.5%;
+}
+.instagram-icon {
+  display: block;
+  position: absolute;
+  width: 50px;
+  left: 93.5%;
+  top: 2%;
+  transition: 0.5s;
+}
+.instagram-icon img {
+  width: 70%;
+}
+.instagram-icon:hover {
+  filter: drop-shadow(0px 0px 1px black);
+  transition: 0.5s;
+}
+.email-icon {
+  display: block;
+  position: absolute;
+  width: 50px;
+  left: 96.5%;
+  top: 10%;
+  transition: 0.5s;
+}
+.email-icon img {
+  width: 62%;
+}
+.email-icon:hover {
+  filter: drop-shadow(0px 0px 2px black);
+  transition: 0.5s;
+}
+.footer-line hr {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 91%;
+  transform: rotate(90deg);
+	width: 39px;
+	max-width: 100%;
+	border: 0;
+	z-index: 1;
+	height: 1px;
+	background: #FFAA00;
+  box-shadow: 0px 0px 10px 1px #FFAA00;
 }
 @font-face {
   font-family: "Play-Regular";
