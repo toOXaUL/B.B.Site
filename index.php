@@ -20,7 +20,7 @@
         </ul>
       </nav>
       <div class = "logo">
-        <img src = "assets/images/logotype.png" alt = "Логотип студії">
+        <a href = "index.php"><img src = "assets/images/logotype.png" alt = "Логотип студії"></a>
       </div>
       <div id = "header-text">
         <span>keimtav studio</span>
