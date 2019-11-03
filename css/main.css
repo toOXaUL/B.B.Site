@@ -253,7 +253,7 @@ li.li-nav a:hover {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 70%;
-  top: 50%;
+  top: 40%;
 }
 #upper-main-text {
   display: block;
@@ -270,6 +270,34 @@ li.li-nav a:hover {
   text-align: center;
   font-family: "Play-Regular";
   font-size: 26px;
+}
+.make-order-button {
+  display: block;
+  position: absolute;
+  left: 70%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  width: 325px;
+  height: 75px;
+  background-color: white;
+  transition: .3s;
+}
+.make-order-button a {
+  display: block;
+  position: absolute;
+  color: black;
+  font-family: "Play-Bold";
+  text-decoration: none;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 52.5%;
+  width: 300px;
+  padding: 25px;
+}
+.make-order-button:hover {
+  transition: .3s;
+  box-shadow: 0px 0px 15px 5px black;
 }
 .colored-text {
   color: #FFAA00;

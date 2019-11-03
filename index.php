@@ -106,6 +106,9 @@
         <span id = "upper-main-text">Coding Your Life</span><br>
         <span id = "bottom-main-text">Я напишу для вас <span class = "colored-text">програмне забезпечення</span>, <span class = "colored-text">сайт</span> <br>або взагалі все, що можна написати...</span>
       </div>
+      <div class = "make-order-button">
+        <a href = "order.php">Зробити замовлення...</a>
+      </div>
     </section>
   </main>
   <footer>
