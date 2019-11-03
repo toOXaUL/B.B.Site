@@ -42,19 +42,16 @@
               <span class = "bar"></span>
               <label class = "label-input">Ім'я</label>
             </div>
-            <br>
             <div class = "group">
               <input type = "text" name = "input-email" required>
               <span class = "bar"></span>
               <label class = "label-input">Email</label>
             </div>
-            <br>
             <div class = "group">
               <input type = "text" name = "input-phone" required maxlength = "13">
               <span class = "bar"></span>
               <label class = "label-input">Номер телефону</label>
             </div>
-            <br>
             <label>Тип послуги:</label>
             <select name = "service-type">
               <option value = "Веб-розробка">Веб-розробка</option>

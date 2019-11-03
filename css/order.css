@@ -135,7 +135,6 @@ li.li-nav a:hover {
   background-color: #E1E1E1;
   box-shadow: 0px 0px 5px 1px black;
   height: 300px;
-  color: black;
   padding: 50px;
 }
 .group {
@@ -155,10 +154,11 @@ input:focus {
   outline: none;
 }
 label {
+  color: black;
   font-family: "Play-Regular";
 }
 .label-input {
-  color: #999;
+  color: #8B8B8B;
   font-size: 15px;
   position: absolute;
   pointer-events: none;
@@ -169,8 +169,8 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 input:focus ~ label, input:valid ~ label {
-  top: -15px;
-  font-size: 14px;
+  top: -10px;
+  font-size: 12px;
   color: #5264AE;
 }
 .bar {
