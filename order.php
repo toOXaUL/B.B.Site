@@ -62,6 +62,7 @@
             <label>Побажання:</label>
             <br>
             <textarea cols = "45" rows = "8"></textarea>
+            <input id = "submit-button" type = "submit" name = "done" value = "Замовити">
           </form>
         </div>
       </div>
