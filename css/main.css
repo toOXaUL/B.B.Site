@@ -92,12 +92,10 @@ li.li-nav a:hover {
 .left-block-1 {
   display: block;
   position: absolute;
-  background-color: white;
   top: 10%;
   width: 500px;
   height: 600px;
-  z-index: 1;
-  box-shadow: 1px 0px 5px 1px black;
+  z-index: -1;
 }
 #web-header-text {
   display: block;
@@ -109,16 +107,19 @@ li.li-nav a:hover {
 }
 #web-header-text span {
   font-family: "Play-Regular";
+  color: white;
   font-size: 25px;
+  text-shadow: 0px 0px 15px black;
 }
 .web-portfolio {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E1E1E1;
+  background-color: #8C4D4E;
   width: 100%;
   height: 200px;
   top: 10%;
+  box-shadow: 1px 0px 5px 1px black;
 }
 #mobile-header-text {
   display: block;
@@ -131,16 +132,19 @@ li.li-nav a:hover {
 }
 #mobile-header-text span {
   font-family: "Play-Regular";
+  color: white;
   font-size: 25px;
+  text-shadow: 0px 0px 15px black;
 }
 .mobile-portfolio {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E1E1E1;
+  background-color: #8C4D4E;
   width: 100%;
   height: 200px;
   top: 40%;
+  box-shadow: 1px 0px 5px 1px black;
 }
 #desktop-header-text {
   display: block;
@@ -153,16 +157,19 @@ li.li-nav a:hover {
 }
 #desktop-header-text span {
   font-family: "Play-Regular";
+  color: white;
   font-size: 25px;
+  text-shadow: 0px 0px 15px black;
 }
 .desktop-portfolio {
   display: block;
   position: absolute;
   color: black;
-  background-color: #E1E1E1;
+  background-color: #8C4D4E;
   width: 100%;
   height: 200px;
   top: 70%;
+  box-shadow: 1px 0px 5px 1px black;
 }
 .item-1-out {
   display: block;
